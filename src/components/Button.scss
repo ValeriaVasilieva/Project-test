@@ -1,0 +1,21 @@
+@import '../styles/const.scss';
+
+.add-button {
+  width: 340px;
+  height: 50px;
+  background-color: $main-color;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 50px;
+
+  &:before {
+    content: url(../img/plus.svg);
+    widows: 16px;
+    padding-top: 1%;
+    padding-right: 17px;
+  }
+}

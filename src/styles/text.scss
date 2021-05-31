@@ -1,0 +1,31 @@
+.heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 44px;
+
+  &--up {
+    text-transform: uppercase;
+  }
+
+  &--bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+  }
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  &--white {
+    color: white;
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+}
